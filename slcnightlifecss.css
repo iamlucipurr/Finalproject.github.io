@@ -1,0 +1,554 @@
+@charset "utf-8";
+@import url("slcnightlifecss.css");
+/* CSS Document */
+
+.imageresize{
+	
+	max-width: 50%;
+	max-height: auto;
+	
+	
+	}
+.linklist { 		border: solid thin black;
+					padding: .3em;
+					float: right;
+					width: 7em;
+					height: 1em;
+					margin-top: .5em;
+					margin-right: 1.7em;
+					margin-bottom: .5em;
+					
+					
+					
+					
+					 }
+	
+	.parake { 	border: solid thin black;
+			float: left;
+			width: 15.5em;
+			height: 16em;
+			text-align: center;
+			margin-left: 1em;
+			margin-right: 1em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: .5em
+			
+}
+	
+	
+	
+	
+	.linklistcen { 		border: solid thin black;
+					padding: .3em;
+					width: 7em;
+					height: 1em;
+					margin-top: 1em;
+					margin-right: 1em;
+					margin-bottom: 1em;
+					text-align: center;
+					content-align: center;
+					
+					
+					
+					 }
+	
+.parak { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 8.5em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: .5em
+			
+}
+.parar { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 8.5em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: .5em
+			
+			
+}
+.parac { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 7.6em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: 1em
+			
+			
+}
+
+.katback {
+								 background-image:  url(katwall.jpg);
+								 
+								  }
+
+body {font-family: arial;}
+
+h1 {margin-left: 1em;
+float: left;
+font-size: 3em;
+height: 45%;
+width: 45%;
+}
+
+h2 { 	text-align: center;
+		margin-left: 1em;
+		margin-right: 1em;
+}
+
+
+.copy {
+	
+}
+
+#wrapper {
+
+			width: 100%;
+			height: 150%;
+			margin-left: auto;
+			margin-right: auto;
+			border: thin solid white;
+			
+}
+header { 
+			width: 97%;
+			height: 20%;
+			margin-top: 1em;
+			margin-left: 1em;
+			float: left;
+			color: white;
+			vertical-align: middle
+ }
+
+ 
+  article1 {
+  				width: 97.5%;
+  				float: left;
+  				margin-left: 1em;
+				margin-right: 1em;
+  				border: thin solid white;
+  				background-color: #89e3f4;
+
+  }
+  aside {
+  			width: 5em;
+  			height: 1em;
+  			float: right;
+  			margin: 1em;
+			border: solid thin white;
+  			
+  			
+
+  }
+
+  footer { 	border: solid thin black;
+  			background-color: #89e3f4;
+		
+			text-align: center;
+			margin-top: 6em;
+			margin-bottom: 1em;
+			margin-left: 1.5em;
+			margin-right: 1.5em;
+			padding-top: .5em;
+			padding-bottom: .5em;
+			padding-left: 2em;
+			padding-right: 2em;
+			clear: both;
+			
+			 }
+  .bodyback {
+								 background-image:  url(background2.jpg); }
+								 
+								.sidewayslist1 {		
+											display: inline;
+											list-style-type: none;
+											padding-left: .5em;
+											padding-right: .5em;
+											padding-top: 1em;
+											padding-bottom: 1em;
+											margin-top: 1em;
+											margin-bottom: .5em;
+											margin-right: 1em;
+											margin-left: 1em;
+											border: thin solid black;
+											background-color: #89e3f4; 
+											text-align: center;
+											font-size: 1em;
+											float: left;
+											width: 4em;
+											height: 1em;
+											vertical-align: bottom;
+
+
+										}
+								.ulcontainer1 {	border: thin solid black;
+										
+									
+										
+										padding-left: 1em;
+										margin: 1em;
+										text-align: center;
+										font-size: 1em;
+										background-color: #017d94;
+										float: left;
+										width: 42%;
+										height: 2%;
+										align: center;
+									}
+
+.para { 	border: solid thin black;
+			float: left;
+			width: 95%;
+			height: 10%;
+			text-align: center;
+			margin-right: 1em;
+			margin-left: 1em;
+			font-size: 1.5em;
+			padding: .5em;
+			background-color: #89e3f4;
+
+
+}
+
+.parall { 	border: solid thin black;
+			float: left;
+			width: 93.2%;
+			height: 10%;
+			text-align: center;
+			margin-right: 1em;
+			margin-left: 1em;
+			font-size: 1.5em;
+			padding: 1em;
+			background-color: #89e3f4;
+
+
+}			
+
+					
+.title { 	
+			border: solid thin black;
+			text-align: center;
+			margin: 1em;
+			padding: 1em;
+			background-color: #89e3f4;
+			width: 93%;
+			height: 2%;
+			float: left;
+}
+
+
+@media (max-width: 30em){
+	
+	
+	article {
+		text-align: center;
+		
+		}
+	
+	h1 {width: 5em;
+		margin-top: 1.5;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		text-align: center;
+		
+		}
+	.title { width: 14.5em}
+	
+	.para {		width: 15.5em;
+			height: 70%;
+		
+		}
+	
+	div { width: 90%
+		
+		}
+	
+	
+	header { 	width: 75%;
+				height: 45%;
+				margin-left: 3.4em;
+
+		}
+		
+		.sidewayslist1 { margin-left: 3em}
+	
+	.parac { width: 78%;
+			height: 20%;
+			text-align: center;
+			padding-top: 2em;
+			padding-bottom: 2em;
+			
+			} 
+			
+	.parak {	width: 83%;
+				height: 20%;
+		
+		
+		
+		}
+		
+	.parar {	width: 83%;
+				height: 20%;
+			}
+			
+	.parall { width: 78%;
+		}
+			
+			
+			
+	}					
+	
+
+
+
+
+@media (min-width: 30em) and (max-width: 60em){
+	.imgfix { min-height: 80%;
+	}
+	article {
+		text-align: center;
+		
+		}
+	
+	h1 {width: 90%;
+		margin-top: 1.5;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		text-align: center;
+		
+		}
+	.title { width: 90%;}
+	
+	.para {		width: 92.8%;
+			height: 70%;
+		
+		}
+	
+	div { width: 90%;
+		height: 100%;
+		
+		}
+	
+	
+	header { 	width: 96%;
+				height: 25%;
+				margin-left: 1em;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				margin-right: 1em;
+
+		}
+		
+		.sidewayslist1 { 	margin: 2em
+							
+							
+		
+		}
+		.parac {					padding-top: 2em;
+					padding-bottom: 1em;
+					padding-left: 1em;
+					padding-right: 1em;
+					text-align: center;
+			
+			
+			}
+}
+
+@media (min-width: 60em) and (max-width: 92em){
+	
+	body {font-family: arial;}
+
+h1 {margin-left: 1em;
+float: left;
+font-size: 3em;
+height: 45%;
+width: 45%;
+}
+
+h2 { 	text-align: center;
+		margin-left: 1em;
+		margin-right: 1em;
+}
+
+
+.copy {
+	
+}
+
+#wrapper {
+
+			width: 100%;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			border: thin solid white;
+			
+}
+header { 
+			width: 97%;
+			height: 20%;
+			margin-top: 1em;
+			margin-left: 1em;
+			float: left;
+			color: white;
+			vertical-align: middle
+ }
+
+ 
+  article1 {
+  				width: 97.5%;
+  				float: left;
+  				margin-left: 1em;
+				margin-right: 1em;
+  				border: thin solid white;
+  				background-color: #89e3f4;
+
+  }
+  aside {
+  			width: 5em;
+  			height: 1em;
+  			float: right;
+  			margin: 1em;
+			border: solid thin white;
+  			
+  			
+
+  }
+
+  footer { 	border: solid thin black;
+  			background-color: #89e3f4;
+			text-align: center;
+			margin-top: 4em;
+			margin-bottom: 1em;
+			margin-left: 2em;
+			padding-top: .5em;
+			padding-bottom: .5em;
+			padding-left: 2em;
+			padding-right: 2em;
+			clear: both
+			
+			 }
+  .bodyback {
+								 background-image:  url(background2.jpg); }
+								 
+								.sidewayslist1 {		
+											display: inline;
+											list-style-type: none;
+											padding-left: .5em;
+											padding-right: .5em;
+											padding-top: 1em;
+											padding-bottom: 1em;
+											margin-top: 1em;
+											margin-bottom: .5em;
+											margin-right: 1em;
+											margin-left: 1em;
+											border: thin solid black;
+											background-color: #89e3f4; 
+											text-align: center;
+											font-size: 1em;
+											float: left;
+											width: 4em;
+											height: 1em;
+											vertical-align: bottom;
+
+
+										}
+								.ulcontainer1 {	border: thin solid black;
+										
+									
+										
+										padding-left: 1em;
+										margin: 1em;
+										text-align: center;
+										font-size: 1em;
+										background-color: #017d94;
+										float: left;
+										width: 42%;
+										height: 2%;
+										align: center;
+									}
+
+.para { 	border: solid thin black;
+			float: left;
+			width: 95%;
+			height: 10%;
+			text-align: center;
+			margin-right: 1em;
+			margin-left: 1em;
+			font-size: 1.5em;
+			padding: .5em;
+			background-color: #89e3f4;
+
+
+}					
+.title { 	
+			border: solid thin black;
+			text-align: center;
+			margin: 1em;
+			padding: 1em;
+			background-color: #89e3f4;
+			width: 93.2%;
+			height: 2%;
+			float: left;
+}
+.parak { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 8.5em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: .5em
+			
+}
+.parar { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 8.5em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: .5em
+			
+			
+}
+.parac { 	border: solid thin black;
+			float: left;
+			width: 20em;
+			height: 7.6em;
+			text-align: left;
+			margin-left: 1em;
+			margin-right: 3em;
+			font-size: 1.5em;
+			background-color: #89e3f4;
+			vertical-align: top;
+			padding: 1em
+			
+			
+}
+}
