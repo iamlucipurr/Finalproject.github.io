@@ -367,11 +367,16 @@ header {
 								width: 7em;
 								margin-left: 2.5em;
 								padding: .5em;}
-	}					
+						
 	
+.linklistcen { float: left;
+				margin-left: 3em;
+	
+	
+	
+	}
 
-
-
+}
 
 @media (min-width : 30.000em ) and (max-width : 45.000em ){
 	
@@ -447,6 +452,12 @@ header {
 				}
 				
 				.imagefix { max-width: 80%}
+				
+				.linklistcen { float: left;
+								margin-left: 3.5em;
+								margin-right: 2em;
+								content-align: middle;
+								}
 				
 }
 @media (min-width: 45em) and (max-width: 60em){
@@ -636,4 +647,16 @@ h2 { 	text-align: center;
 			
 }
 .linklistalt {float: left;}
+
+.parall { 	border: solid thin black;
+			float: left;
+			width: 93%;
+			height: 10%;
+			text-align: center;
+			margin-right: 1em;
+			margin-left: 1em;
+			font-size: 1.5em;
+			padding: .5em;
+			background-color: #89e3f4;
+}
 }
