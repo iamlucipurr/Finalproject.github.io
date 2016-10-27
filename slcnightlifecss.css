@@ -9,19 +9,43 @@
 	
 	
 	}
+	
+	.imagefix { 	margin: 10px auto;
+					display:block; 
+					max-height: auto; 
+					max-width: 100%;}
+					
+					
+					
+					
 .linklist { 		border: solid thin black;
 					padding: .3em;
-					float: right;
+					float: left;
 					width: 7em;
 					height: 1em;
 					margin-top: .5em;
-					margin-right: 1.7em;
+					margin-right: .3em;
 					margin-bottom: .5em;
+					margin-left: .8em;
 					
 					
 					
 					
 					 }
+	
+	.linklistalt { 		border: solid thin black;
+					padding: .3em;
+					float: right;
+					width: 7em;
+					height: 1em;
+					margin-top: .5em;
+					margin-right: .5em ;
+					margin-bottom: .5em;
+					margin-left: 1em;
+					
+	}
+	
+	
 	
 	.parake { 	border: solid thin black;
 			float: left;
@@ -121,12 +145,13 @@ h2 { 	text-align: center;
 }
 
 #wrapper {
-
-			width: 100%;
+			min-width: 450px;
+			max-width: 1450px;
 			height: 150%;
 			margin-left: auto;
 			margin-right: auto;
 			border: thin solid white;
+			padding: .5em;
 			
 }
 header { 
@@ -140,13 +165,14 @@ header {
  }
 
  
-  article1 {
+  article {
   				width: 97.5%;
   				float: left;
-  				margin-left: 1em;
-				margin-right: 1em;
-  				border: thin solid white;
-  				background-color: #89e3f4;
+  				margin-left: auto;
+				margin-right: auto;
+  				border-radius: 1px;
+  				box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+  				
 
   }
   aside {
@@ -166,14 +192,14 @@ header {
 			text-align: center;
 			margin-top: 6em;
 			margin-bottom: 1em;
-			margin-left: 1.5em;
-			margin-right: 1.5em;
+			margin-left: auto;
+			margin-right: auto;
 			padding-top: .5em;
 			padding-bottom: .5em;
 			padding-left: 2em;
 			padding-right: 2em;
 			clear: both;
-			
+			width: 50%;
 			 }
   .bodyback {
 								 background-image:  url(background2.jpg); }
@@ -256,10 +282,10 @@ header {
 }
 
 
-@media (max-width: 30em){
+@media (max-width : 30em ){
 	
 	
-	article {
+	article {width: 99%;
 		text-align: center;
 		
 		}
@@ -271,16 +297,16 @@ header {
 		text-align: center;
 		
 		}
-	.title { width: 14.5em}
+	.title { width: 70%;
+				
 	
-	.para {		width: 15.5em;
+	}
+	
+	.para {		width: 80%;
 			height: 70%;
-		
+			
 		}
 	
-	div { width: 90%
-		
-		}
 	
 	
 	header { 	width: 75%;
@@ -301,31 +327,60 @@ header {
 			
 	.parak {	width: 83%;
 				height: 20%;
-		
+	
 		
 		
 		}
 		
 	.parar {	width: 83%;
-				height: 20%;
+				height: 20%; 
 			}
 			
-	.parall { width: 78%;
+	.parall { width: 76%; 
 		}
 			
+	
+	
+		
+		
+		.imagefix    { max-width: 75%;}
 			
 			
+			.footer { width: 50%;
+			
+				
+				
+				}
+				
+				#wrapper { max-width: 480px;}
+				
+				
+				
+				.linklist { padding: .5em;
+				margin-left: 2.5em;
+				
+				
+				
+				
+				}
+				.linklistalt {float: left;
+								width: 7em;
+								margin-left: 2.5em;
+								padding: .5em;}
 	}					
 	
 
 
 
 
-@media (min-width: 30em) and (max-width: 60em){
+@media (min-width : 30.000em ) and (max-width : 45.000em ){
+	
+	
 	.imgfix { min-height: 80%;
 	}
 	article {
 		text-align: center;
+		width: 99.5%;
 		
 		}
 	
@@ -336,17 +391,21 @@ header {
 		text-align: center;
 		
 		}
-	.title { width: 90%;}
+	.title { 	width: 84%;
+				margin-left: .5em;
 	
-	.para {		width: 92.8%;
+				}
+	
+	.para {		width: 90%;
 			height: 70%;
-		
+			margin: .5em;
 		}
 	
-	div { width: 90%;
-		height: 100%;
+		.footer { 
+						width: 50%;
+						margin-left: auto;
+						margin-right: auto}
 		
-		}
 	
 	
 	header { 	width: 96%;
@@ -358,7 +417,7 @@ header {
 
 		}
 		
-		.sidewayslist1 { 	margin: 2em
+		.sidewayslist1 { 	margin: 2em;
 							
 							
 		
@@ -371,6 +430,40 @@ header {
 			
 			
 			}
+			
+				#wrapper { 
+				
+				min-width: 97%;
+				
+							
+					
+					
+					
+					}
+				.parall {		width: 80%;
+			
+			margin-top: .5em;
+			margin-bottom: .5em;
+				}
+				
+				.imagefix { max-width: 80%}
+				
+}
+@media (min-width: 45em) and (max-width: 60em){
+	
+	
+		 .linklistalt{ float: left;
+		 				margin-left: .6em;}
+	
+	
+	.parall { width: 88%;}
+	
+	article { width: 98%;}
+	
+	.title { width: 90%;
+	margin-left: .5em;}
+	.para { margin-left: .5em}
+	
 }
 
 @media (min-width: 60em) and (max-width: 92em){
@@ -386,8 +479,7 @@ width: 45%;
 
 h2 { 	text-align: center;
 		margin-left: 1em;
-		margin-right: 1em;
-}
+		}
 
 
 .copy {
@@ -395,32 +487,21 @@ h2 { 	text-align: center;
 }
 
 #wrapper {
-
-			width: 100%;
-			height: 100%;
+			min-width: 98%;
 			margin-left: auto;
 			margin-right: auto;
 			border: thin solid white;
 			
 }
-header { 
-			width: 97%;
-			height: 20%;
-			margin-top: 1em;
-			margin-left: 1em;
-			float: left;
-			color: white;
-			vertical-align: middle
- }
+
 
  
-  article1 {
-  				width: 97.5%;
+  article {
+  				width: 99.5%;
   				float: left;
-  				margin-left: 1em;
-				margin-right: 1em;
-  				border: thin solid white;
-  				background-color: #89e3f4;
+  				 
+  				
+  				
 
   }
   aside {
@@ -437,14 +518,17 @@ header {
   footer { 	border: solid thin black;
   			background-color: #89e3f4;
 			text-align: center;
-			margin-top: 4em;
+			margin-top: 10em;
 			margin-bottom: 1em;
-			margin-left: 2em;
 			padding-top: .5em;
 			padding-bottom: .5em;
 			padding-left: 2em;
 			padding-right: 2em;
-			clear: both
+			clear: both;
+			max-width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			
 			
 			 }
   .bodyback {
@@ -489,7 +573,7 @@ header {
 
 .para { 	border: solid thin black;
 			float: left;
-			width: 95%;
+			width: 93%;
 			height: 10%;
 			text-align: center;
 			margin-right: 1em;
@@ -506,7 +590,7 @@ header {
 			margin: 1em;
 			padding: 1em;
 			background-color: #89e3f4;
-			width: 93.2%;
+			width: 90%;
 			height: 2%;
 			float: left;
 }
@@ -551,4 +635,5 @@ header {
 			
 			
 }
+.linklistalt {float: left;}
 }
